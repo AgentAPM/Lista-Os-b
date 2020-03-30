@@ -1,0 +1,5 @@
+Amadeusz|Zings|49|70
+Wojciech|Kowalczak|45|81
+Adam|Kowal|32|69
+Marian|Kopeć|29|72
+Michaś|Czumbadło|25|85

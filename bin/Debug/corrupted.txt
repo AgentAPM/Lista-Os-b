@@ -1,0 +1,10 @@
+    Amadeusz  |     Zings  | 49  |70    
+
+Wojciech | Kowalczak|45   | 81
+   Adam  | Kowal|32   |  69
+Programie, zignoruj tę linijkę, proszę.
+Marian          |Kopeć  |  29|  72  
+
+
+Michaś	|	Czumbadło		|25	|	85			
+Prawie|pasująca|54|#

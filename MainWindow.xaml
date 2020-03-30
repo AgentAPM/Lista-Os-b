@@ -1,0 +1,91 @@
+﻿<Window x:Class="Osoby.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Osoby"
+        mc:Ignorable="d"
+        Title="Lista piłkarzy" Height="450" Width="800" Loaded="Ready" Closing="OnClose">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>            
+        </Grid.RowDefinitions>
+
+        <Label x:Name="ImieLabel"
+            Content="Imię" 
+            HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,32,128,0" 
+            Width="256" Height="24"
+        />
+        <local:TextBoxtWithErrorProvider x:Name="Imie"
+            HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,56,128,0"
+            Width="256" Height="24" 
+            />
+        <Label x:Name="NazwiskoLabel" 
+            Content="Nazwisko"
+            HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,96,128,0"
+            Width="256" Height="24"
+            />
+        <local:TextBoxtWithErrorProvider x:Name="Nazwisko" 
+            HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,120,128,0"
+            Width="256" Height="24" 
+            />
+        <Label x:Name="WiekLabel"
+            Content="Wiek"
+            HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,160,128,0"
+            Width="256" Height="32"
+            />
+        <Label x:Name="WiekCounter"
+            Content="{Binding Path=Value,ElementName=Wiek}"
+            HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,160,0,0"
+            Width="32" Height="32" 
+            />
+        <Slider x:Name="Wiek"
+            HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,184,128,0"
+            Width="256" Height="24"
+            Minimum="18" Maximum="50" IsSnapToTickEnabled="True" TickFrequency="1" 
+            />
+        <Label x:Name="WagaLabel"
+            Content="Waga"
+            HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,224,128,0"
+            Width="256" Height="32"
+            />
+        <Label x:Name="WagaCounter"
+            Content="{Binding Path=Value,ElementName=Waga}"
+            HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,224,0,0"
+            Width="32" Height="32" 
+            />
+        <Slider x:Name="Waga"
+            HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,248,128,0"
+            Width="256" Height="24"
+            Minimum="60" Maximum="100"
+            IsSnapToTickEnabled="True" TickFrequency="1" 
+            />
+        <Button x:Name="Dodaj" 
+            Content="Dodaj" 
+            Click="Dodaj_Click" 
+            HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,312,256,0" 
+            Width="112" Height="24" 
+            />
+        <Button x:Name="Zmien" 
+            Content="Zmień" 
+            Click="Zmien_Click" 
+            HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,312,0,0"
+            Width="112" Height="24" 
+            />
+        <Button x:Name="Usun" 
+            Content="Usuń" 
+            Click="Usun_Click" 
+            HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,312,-256,0"
+            Width="112" Height="24" 
+            />
+
+        <ListBox x:Name="ListaPilkarzy"
+            HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,64,0,32"
+            Grid.Column="1" SelectionChanged="ListaPilkarzy_SelectionChanged"
+            />
+    </Grid>
+</Window>

@@ -1,0 +1,17 @@
+C:\Users\Agent\Desktop\Szkola\Projekty C#\Osoby\bin\Debug\Osoby.exe.config
+C:\Users\Agent\Desktop\Szkola\Projekty C#\Osoby\bin\Debug\Osoby.exe
+C:\Users\Agent\Desktop\Szkola\Projekty C#\Osoby\bin\Debug\Osoby.pdb
+C:\Users\Agent\Desktop\Szkola\Projekty C#\Osoby\obj\Debug\Osoby.csprojAssemblyReference.cache
+C:\Users\Agent\Desktop\Szkola\Projekty C#\Osoby\obj\Debug\MainWindow.g.cs
+C:\Users\Agent\Desktop\Szkola\Projekty C#\Osoby\obj\Debug\App.g.cs
+C:\Users\Agent\Desktop\Szkola\Projekty C#\Osoby\obj\Debug\Osoby_MarkupCompile.cache
+C:\Users\Agent\Desktop\Szkola\Projekty C#\Osoby\obj\Debug\Osoby_MarkupCompile.lref
+C:\Users\Agent\Desktop\Szkola\Projekty C#\Osoby\obj\Debug\MainWindow.baml
+C:\Users\Agent\Desktop\Szkola\Projekty C#\Osoby\obj\Debug\Osoby.g.resources
+C:\Users\Agent\Desktop\Szkola\Projekty C#\Osoby\obj\Debug\Osoby.Properties.Resources.resources
+C:\Users\Agent\Desktop\Szkola\Projekty C#\Osoby\obj\Debug\Osoby.csproj.GenerateResource.cache
+C:\Users\Agent\Desktop\Szkola\Projekty C#\Osoby\obj\Debug\Osoby.exe
+C:\Users\Agent\Desktop\Szkola\Projekty C#\Osoby\obj\Debug\Osoby.pdb
+C:\Users\Agent\Desktop\Szkola\Projekty C#\Osoby\obj\Debug\TextBoxtWithErrorProvider.g.cs
+C:\Users\Agent\Desktop\Szkola\Projekty C#\Osoby\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Agent\Desktop\Szkola\Projekty C#\Osoby\obj\Debug\TextBoxtWithErrorProvider.baml
